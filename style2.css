@@ -111,6 +111,14 @@ span{
     font-weight: 500;
 }
 
+button a{
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
 button{
     border-color: #BBBFC1;
     border-radius: 4px;
@@ -118,9 +126,7 @@ button{
     background-color: transparent;
     height: 48px;
     width: 137px;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 500;
+   
 }
 
 .button{

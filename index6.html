@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 4</title>
+    <title>Página 6</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style6.css">
+
 </head>
 <body>
     <header>
@@ -21,61 +22,58 @@
     
         <main class="container">
         <div class="img">
-        <img src="img/Progress bar.png" alt="progresso">
+        <img src="img/Progress bar3.png" alt="progresso">
         </div>
         <h2>Profile info</h2>
         <p>Fill in the data for profile. It will take a couple of minutes. You only need a passport</p>
-    
-        <div class="check">
-        <input type="checkbox" id="acordo">
-        <p>I agree with</p>        
-        <span>Terms of use</span>
-        
         </div>
 
         <div class="preencher">
         <fieldset>
-        <div class="dados">
-        <h3>Personal data</h3>
-        <span>Specify exactly as in your passport</span>
-       
-        <div class="dado">
-        <label for="Nome">First name</label>
-        <br>
+        <div class="info">
+        <h3>Delivery address</h3>
+        <span>Used for shipping orders</span>
+    </div>
+        
+        <label for="codigo">Address</label>
         <input type="text">
-        </div>
 
-        <div class="dado">
-        <label for="segundonome">Second name</label>
-        <br>
-        <input type="text">
-        </div>
-        <div class="dado">
-        <label for="birth">Date of Birth</label>
-        <br>
-        <input type="date">
-        </div>
-
-        <div class="dado">
-        <label for="place">Place of Birth</label>
-        <br>
+        <label for="city">City</label>
         <div class="local">  
-        <select name="place" id="place">
-        <option value="eua">New York, EUA</option>
-        <option value="franca">Paris, França</option>
-        <option value="brasil">São Paulo, Brasil</option>
-        </select>
+            <select name="place" id="place">
+            <option value="eua">New York</option>
+            <option value="franca">Paris</option>
+            <option value="brasil">São Paulo</option>
+            </select>
+            </div>
+
+            <div class="paises">
+            <div class="paises-card">
+            <div class="pais">
+            <label for="pais">Country</label>
+            </div>
+            <div class="zip">
+            <label for="zip">Zip Code</label>
+            </div>
+            </div>
+
+            <div class="country">  
+            <select name="pais" id="pais">
+            <option value="eua">EUA</option>
+            <option value="franca">França</option>
+            <option value="brasil">Brasil</option>
+            </select>
+            
+            <input type="text">
+            </div>
+
+        <span>Optional</span>
         </div>
-        <div class="concluir">
-        <h4>123-45-678</h4>
-        <p><i class="fa-solid fa-check"></i>Your ITIN</p>
-        </div>
-        </div>
-        </fieldset>      
+        </fieldset>    
         <div class="button">
-        <button><a href="index5.html">Go next</a></button>
+        <button>Go next</button>
+        </div>  
         </div>
-        </form>
         </main>
 </body>
 </html>

@@ -34,12 +34,6 @@ h2{
     padding-bottom: 16px;
 }
 
-h3{
-    font-family: "Poppins";
-    font-size: 20px;
-    font-weight: 600;
-}
-
 .container p{
     display: flex;
     font-family: "Roboto";
@@ -51,34 +45,6 @@ h3{
     color: #575F6E;
 }
 
-.check{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 32px;
-}
-
-.check input{
-    width: 24px;
-}
-
-.check p{
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    width: auto;
-    padding: 0;
-    color: black;
-   
-}
-
-.check span{
-    color: #007AFF;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-}
-
 .container{
    padding-top: 48px;
    align-items: center;
@@ -87,12 +53,85 @@ h3{
     flex-direction: column;
 }
 
-label{
+fieldset{
+    display: flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info h3{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info span{
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 12px;
+}
+
+fieldset label{
     font-family: "Poppins";
     font-size: 14px;
     font-weight: 400;
+    padding-top: 32px;
 }
 
+fieldset input{
+    width: 326px;
+    height: 44px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 16px 8px;
+}
+
+.local select{
+    width: 326px;
+    height: 44px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.local
+{
+    padding-bottom: 32px;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 72px;
+}
+
+fieldset span{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+}
+.country input, select{
+width: 147px;
+height: 44px;
+
+}
+
+.paises input{
+    padding: 16px 8px;
+}
+
+.country{
+    gap: 32px;
+}
+
+.paises-card{
+    display: flex;
+    gap: 40%;
+}
 input{
     font-family: "Roboto";
     font-size: 18px;
@@ -106,71 +145,8 @@ input{
     width: 100%;
 }
 
-fieldset{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.dados{
-    float: left;
-    padding: 24px 32px;
-}
-
-.dado{
-    padding-top: 32px;
-}
-.dados span{
-    font-family: "Poppins";
-    font-size: 12px;
-    font-weight: 300;
-    color: #575F6E;
-}
-
-.dados label{
-    padding-top: 32px;
-    font-family: "Poppins";
-    font-size: 14px;
-    font-weight: 400;
-   
-}
-
-.dados input{
-    width: 326px;
-    height: 44px;
-    align-items: center;
-    padding: 16px 8px;
-}
-
-select{
-    width: 326px;
-    height: 44px;
-    font-family: "Roboto";
-    align-items: center;
-    font-size: 18px;
-    padding: 8px;
-}
-
-.local{
-    padding-bottom: 32px;
-}
-
-h4{
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.concluir{
-float: left;
-}
-
-button a{
-    text-decoration: none;
-    color: #000000;
-}
 button{
-    color: #000000;
+    color: #ffffff;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
@@ -180,15 +156,17 @@ button{
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
+    background-color: #007AFF;
+    border: none;
     
 }
 
 .button{
-    padding-top: 32px;
     display: flex;
     align-items: center;
    justify-content: center;
    padding-bottom: 40px;
+   padding-top: 32px;
 }
 
 @media(min-width:749px){
@@ -209,8 +187,8 @@ fieldset{
 .button{
     display: flex;
     float: left;
-    padding-left: 38%;
     align-items: center;
     justify-content: center;
+    padding-left: 38%;
 }
 }

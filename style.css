@@ -102,6 +102,13 @@ input{
 
 }
 
+button a{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+   text-decoration: none;
+   color: #242731;
+}
 button{
     border-color: #BBBFC1;
     border-radius: 4px;
@@ -109,9 +116,7 @@ button{
     background-color: transparent;
     height: 48px;
     width: 137px;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 500;
+   
 }
 
 .button{
@@ -121,11 +126,11 @@ button{
    justify-content: center;
 }
 
-@media(width:749px){
+@media(min-width:749px){
 
 .container{
-    display:flex;
-    float: left;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 }
